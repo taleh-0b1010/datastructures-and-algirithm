@@ -1,7 +1,4 @@
 # Java Core Solutions
-
----
-
 ## Table of Contents
 - ### Algorithms
   - **Sort**
@@ -14,7 +11,6 @@
 - ### Data Structures
 - ### Interview Questions
 - ### Design Patterns
----
 ## Bubble Sort
 This is definition
 
