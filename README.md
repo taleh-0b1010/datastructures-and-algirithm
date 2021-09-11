@@ -4,13 +4,13 @@
 
 ## Table of Contents
 - ### Algorithms
-  - ###**Sort**
+  - **Sort**
     - [Bubble Sort](#bubble-sort)
     - [Insertion Sort](#insertion-sort)
     - [Selection Sort](#selection-sort)
     - [Recursion](#recursion)
     - [Merge Sort](#merge-sort)
-  - ###**Search**
+  - **Search**
 - ### Data Structures
 - ### Interview Questions
 - ### Design Patterns
