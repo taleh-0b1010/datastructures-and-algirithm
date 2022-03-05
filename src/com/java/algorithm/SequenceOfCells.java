@@ -1,7 +1,6 @@
 package com.java.algorithm;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -17,7 +16,6 @@ public class SequenceOfCells {
             return;
         }
 
-        System.out.println(Arrays.deepToString(get2DMatrixOfString(matrixChars, word.length())));
         char[][] matrixOfString = get2DMatrixOfString(matrixChars, word.length());
         findCells(matrixOfString, word);
     }
