@@ -62,16 +62,16 @@ public class SequenceOfCells {
         int b = j;
         if (j + 1 < word.length() && matrixOfString[i][j + 1] == word.charAt(c)) {
             b = j + 1;
-            list.add("[" + i + "," + b + "]");
+            list.add("[" + a + "," + b + "]");
         } else if (j - 1 >= 0 && matrixOfString[i][j - 1] == word.charAt(c)) {
             b = j - 1;
-            list.add("[" + i + "," + b + "]");
+            list.add("[" + a + "," + b + "]");
         } else if (i - 1 >= 0 && matrixOfString[i - 1][j] == word.charAt(c)) {
             a = i - 1;
-            list.add("[" + a + "," + j + "]");
+            list.add("[" + a + "," + b + "]");
         } else if (i + 1 < word.length() && matrixOfString[i + 1][j] == word.charAt(c)) {
             a = i + 1;
-            list.add("[" + a + "," + j + "]");
+            list.add("[" + a + "," + b + "]");
         } else {
             if (c == 1) {
                 list.remove(list.size() - 1);
