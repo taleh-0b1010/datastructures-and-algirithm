@@ -2,6 +2,19 @@ package com.java.datastructure.stack.arrayimpl;
 
 import java.util.EmptyStackException;
 
+/**
+ * Backed the Stack with array
+ * LIFO - Last In First Out
+ *
+ * General operations: <br/>
+ *          push(), O(1) or O(n) <br/>
+ *          pop(),  O(1) <br/>
+ *          peek()  O(1) <br/>
+ * Amortized time complexity
+ *
+ * Faster version of stack in JDK: <br/>
+ *          java.util.ArrayDeque<E>
+ */
 public class ArrayStack {
 
     private Employee[] stack;
