@@ -28,7 +28,6 @@ class EmployeeLinkedList {
             head = node;
         } else {
             tail.setNext(node);
-            node.setPrevious(tail);
         }
 
         tail = node;

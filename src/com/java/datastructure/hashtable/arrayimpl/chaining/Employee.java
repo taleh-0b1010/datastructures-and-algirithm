@@ -1,8 +1,8 @@
-package com.java.datastructure.hashtable.arrayimpl;
+package com.java.datastructure.hashtable.arrayimpl.chaining;
 
 import java.util.Objects;
 
-class Employee {
+public class Employee {
 
     private int id;
     private String firstName;
