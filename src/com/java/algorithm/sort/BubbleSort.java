@@ -3,7 +3,7 @@ package com.java.algorithm.sort;
 import java.util.Arrays;
 
 /**
- * Taleh Qurbanzada
+ * Taleh Gurbanzade
  */
 public class BubbleSort {
 

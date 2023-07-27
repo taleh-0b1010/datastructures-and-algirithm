@@ -1,8 +1,14 @@
 package com.java.algorithm.sort;
 
 import java.util.Arrays;
-import java.util.concurrent.ThreadLocalRandom;
 
+/**
+ * Time Complexity O(n+k):
+ *      n - number of elements in the array
+ *      k - range of elements in the array
+ *
+ * Good choice if the range of the elements is not greater than the number of elements
+ */
 public class CountingSort {
 
     public static void main(String[] args) {
@@ -11,6 +17,7 @@ public class CountingSort {
 
         countingSort(intArray, 2, 10);
 
+        System.out.println();
         System.out.println(Arrays.toString(intArray));
 
     }
@@ -19,7 +26,8 @@ public class CountingSort {
         int[] countArray = new int[(max - min) + 1];
 
         for (int i = 0; i < input.length; i++) {
-            countArray[input[i] - min]++;  // [0, 2, 1, 1, 0, 0, 1, 2, 1, 1, 0]
+            countArray[input[i] - min]++;  // [2, 1, 1, 1, 0, 1, 2, 1, 1] in last iteration
+            System.out.println(Arrays.toString(countArray));
         }
 
         int j = 0;

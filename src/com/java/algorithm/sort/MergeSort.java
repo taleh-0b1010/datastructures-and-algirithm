@@ -3,7 +3,10 @@ package com.java.algorithm.sort;
 import java.util.Arrays;
 
 /**
- * Taleh Qurbanzada
+ * Time Complexity O(nlog(n)):
+ *      n - number of elements in the array
+ *
+ * Most efficient sorting algorithm
  */
 public class MergeSort {
 

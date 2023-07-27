@@ -1,7 +1,7 @@
 package com.java.algorithm.sort;
 
 /**
- * Taleh Qurbanzada
+ * Taleh Gurbanzade
  */
 public class Recursion {
 

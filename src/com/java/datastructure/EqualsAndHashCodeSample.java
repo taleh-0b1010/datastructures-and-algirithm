@@ -4,9 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 
-public class EHTest {
+public class EqualsAndHashCodeSample {
 
     public static void main(String[] args) {
         Employee employee1 = new Employee("Taleh");
