@@ -19,7 +19,7 @@ public class ContainsDuplicate {
      * Time complexity: O(n * log n)
      * Space complexity: O(1)
      */
-    static class Solution1 {
+    private static class Solution1 {
 
         static boolean containsDuplicate(int[] nums) {
             Arrays.sort(nums);
@@ -37,7 +37,7 @@ public class ContainsDuplicate {
      * Time complexity: O(n)
      * Space complexity: O(n)
      */
-    static class Solution2 {
+    private static class Solution2 {
 
         static boolean containsDuplicate(int[] nums) {
             Set<Integer> set = new HashSet<>(nums.length);

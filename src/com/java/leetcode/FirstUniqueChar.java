@@ -1,7 +1,5 @@
 package com.java.leetcode;
 
-import java.util.Arrays;
-
 public class FirstUniqueChar {
 
     public static void main(String[] args) {

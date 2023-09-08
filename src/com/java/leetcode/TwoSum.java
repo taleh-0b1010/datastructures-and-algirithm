@@ -13,7 +13,7 @@ public class TwoSum {
         System.out.println(Arrays.toString(Solution2.twoSum(nums, target)));
     }
 
-    static class Solution1 {
+    private static class Solution1 {
         static int[] twoSum(int[] nums, int target) {
             int[] result = new int[2];
             for (int i = 0; i < nums.length; i++) {
@@ -29,7 +29,7 @@ public class TwoSum {
         }
     }
 
-    static class Solution2 {
+    private static class Solution2 {
         static int[] twoSum(int[] nums, int target) {
             Map<Integer, Integer> map = new HashMap<>();
             for (int i = 0; i < nums.length; i++) {

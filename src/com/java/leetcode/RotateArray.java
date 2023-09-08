@@ -17,7 +17,7 @@ public class RotateArray {
      * Time complexity: O(n)
      * Space complexity: O(1)
      */
-    static class Solution2 {
+    private static class Solution2 {
 
         static void rotate(int[] nums, int k) {
             k %= nums.length;
@@ -42,7 +42,7 @@ public class RotateArray {
      * Time complexity: O(n*k). Not good enough
      * Space complexity: O(1)
      */
-    static class Solution1 {
+    private static class Solution1 {
 
         static void rotate(int[] nums, int k) {
             for (int i = 0; i < k; i++) {
